@@ -1,5 +1,3 @@
-/* Clean styling for the Vintage Cars Guessing Game */
-
 body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
@@ -11,7 +9,6 @@ body {
   align-items: center;
 }
 
-/* Title */
 h1 {
   border: 2px solid #000;
   padding: 5px 20px;
@@ -19,7 +16,6 @@ h1 {
   font-size: 24px;
 }
 
-/* Subtitle */
 p {
   font-size: 14px;
   margin: 5px 0 15px 0;
@@ -27,7 +23,6 @@ p {
   padding: 3px 10px;
 }
 
-/* Main card */
 #car-info {
   border: 2px solid #000;
   padding: 10px;
@@ -35,7 +30,6 @@ p {
   width: 400px;
 }
 
-/* Inner header (Cabriolet) */
 #car-info h2 {
   border: 2px solid #000;
   padding: 5px;
@@ -43,39 +37,33 @@ p {
   font-size: 18px;
 }
 
-/* Image */
 #car-img {
   width: 100%;
   height: auto;
   border: 1px solid #000;
 }
 
-/* Guess section */
 #guess-ui {
   margin-top: 10px;
   text-align: center;
 }
 
-/* Label inline */
 #guess-ui label {
   font-weight: bold;
   margin-right: 5px;
 }
 
-/* Dropdown */
 #make-list {
   padding: 3px;
   font-size: 14px;
 }
 
-/* Button */
 #guess-btn {
   padding: 3px 8px;
   font-size: 14px;
   cursor: pointer;
 }
 
-/* Score section */
 div:last-child {
   margin-top: 10px;
   text-align: center;
@@ -86,7 +74,6 @@ div:last-child p {
   margin: 3px 0;
 }
 
-/* Numbers */
 #correct,
 #total {
   font-weight: bold;
