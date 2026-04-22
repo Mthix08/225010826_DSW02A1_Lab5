@@ -1,14 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Mr. Surname Blender</h1>
+
+    <div>
+      <span>Surname:</span>
+      <input id="surname" type="text" size="20" />
+    </div>
+
+    <div>
+      <span>Font:</span>
+      <select id="font">
+        <option>Arial</option>
+        <option>Comic Sans MS</option>
+        <option>Times New Roman</option>
+        <option>Verdana</option>
+      </select>
+    </div>
+
+    <div>
+      <span>Position:</span>
+      <input name="pos" type="radio" value="seq" checked /> Sequential
+      <input name="pos" type="radio" value="rand" /> Random
+      <input name="pos" type="radio" value="rev" /> Reverse
+    </div>
+
+    <div>
+      <span>Color:</span>
+      <select id="color">
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+    </div>
+
+    <div>
+      <span>Font Size:</span>
+      <input id="size" type="number" value="16" placeholder="font size" />
+    </div>
+
+    <div>
+      <span>Color Picker:</span>
+      <input type="color" id="colorPicker" />
+    </div>
+
+    <div>
+      <span>Letter Spacing:</span>
+      <input type="range" id="spacing" min="0" max="20" value="5" />
+    </div>
+
+    <div>
+      <span>Letter Size:</span>
+      <input type="range" id="letterSize" min="10" max="50" value="16" />
+    </div>
+
+    <button id="blend-btn">Blend Now</button>
+
+    <div
+      id="output" class="output"
+    ></div>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
